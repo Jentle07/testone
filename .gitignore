@@ -5,6 +5,9 @@ sites/*/*settings*.php
 files/
 sites/*/files
 sites/*/private
+sites/*/1_bkup_settings
+sites/*/modules
+sites/*/themes
 
 # Ignore default text files
 robots.txt
@@ -18,6 +21,10 @@ robots.txt
 sites/all/README.txt
 sites/all/modules/README.txt
 sites/all/themes/README.txt
+sites/*/1_bkup_settings
+sites/*/default.settings.php
+sites/*/settings.php.bkup
+sites/*/settings.bkup.php
 
 # Ignore everything but the "sites" folder ( for non core developer )
 .htaccess
@@ -34,3 +41,13 @@ xmlrpc.php
 /profiles
 /scripts
 /themes
+/tmp
+/kyefiles_bkup
+/error
+/1_dir_backup
+*.[oa]
+*~
+*.png
+*.jpg
+*.ico
+
